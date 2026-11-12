@@ -83,10 +83,12 @@ li {
 
 .gallery-image {
     display: block;
-    width: 300px;
+    width: 200px;
     max-width: 100%;
-    height: auto;
-    border-radius: 15px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
     margin: 15px 0;
     box-shadow: 0 4px 12px rgba(31, 87, 59, 0.15);
 }
