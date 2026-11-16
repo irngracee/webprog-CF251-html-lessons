@@ -1,155 +1,247 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Personal Profile</title>
-    <div class="grid-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-</div>
-   <link rel="stylesheet" href="css/css-grid.css">
+    <link rel="stylesheet" href="css/css-grid.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <div class="container">
 
-        <h1 id="top">Personal Profile Web Page</h1>
+    <header class="site-header">
+        <h1>IRENE GRACE A. GABUYO</h1>
 
-        <!-- Profile Introduction -->
-        <div class="profile-section">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#interests">Interests</a>
+            <a href="#goals">Goals</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
 
-            <div class="profile-picture">
-                <img src="photo_6244259322100040191_y.jpg" alt="My Profile Picture">
-            </div>
 
-            <div class="profile-info">
-                <h2>Irene Grace A. Gabuyo</h2>
-                <p>Welcome to my personal profile webpage!</p>
-                <p>BS Computer Science | Cybersecurity and Forensics</p>
-            </div>
+
+    <main class="container">
+
+        <div class="content-grid">
+
+
+            <section class="profile-section card">
+
+                <div class="profile-picture">
+                    <img src="photo_6244259322100040191_y.jpg"
+                         alt="My Profile Picture">
+                </div>
+
+                <div class="profile-info">
+                    <span class="section-label">PERSONAL PROFILE</span>
+
+                    <h2>Hello, I'm Irene!</h2>
+
+                    <p>
+                        Welcome to my personal profile webpage!
+                        I am a BS Computer Science student specializing
+                        in Cybersecurity and Forensics at Asia Pacific College.
+                    </p>
+                </div>
+
+            </section>
+
+
+            <section class="card" id="education">
+
+                <span class="section-label">01 / EDUCATION</span>
+
+                <h2>Education & Achievements</h2>
+
+                <p>
+                    I graduated from STI Global City, where I took the
+                    Information Technology strand. I am currently a
+                    college student at Asia Pacific College.
+                </p>
+
+            </section>
+
+
+
+            <section class="card" id="experience">
+
+                <span class="section-label">02 / EXPERIENCE</span>
+
+                <h2>IT Experience</h2>
+
+                <p>
+                    I am currently learning HTML, CSS, Java, programming,
+                    and other computer science concepts. I am also
+                    exploring web development and cybersecurity.
+                </p>
+
+            </section>
+
+
+
+            <section class="card" id="interests">
+
+                <span class="section-label">03 / INTERESTS</span>
+
+                <h2>Hobbies & Interests</h2>
+
+                <ul>
+                    <li>Watching Crime Series</li>
+                    <li>Singing</li>
+                    <li>Playing Games</li>
+                </ul>
+
+            </section>
+
+
+
+            <section class="card" id="goals">
+
+                <span class="section-label">04 / FUTURE</span>
+
+                <h2>Goals & Dreams</h2>
+
+                <p>
+                    My goals are to finish my college studies,
+                    become successful in the field of Computer Science,
+                    build a stable career, and support my family.
+                </p>
+
+            </section>
+
+
+
+            <section class="card gallery-card" id="gallery">
+
+                <span class="section-label">05 / GALLERY</span>
+
+                <h2>Picture Gallery</h2>
+
+                <div class="gallery-container">
+
+                    <img
+                        src="https://www.heromotocorp.com/content/dam/hero-aem-website/in/en-in/premia/x440/360-bike-variant/x440-s/1.jpg"
+                        alt="My Dream Bike"
+                    >
+
+                </div>
+
+            </section>
+
+
+
+            <section class="card">
+
+                <span class="section-label">06 / ACADEMICS</span>
+
+                <h2>My Course</h2>
+
+                <p>
+                    Bachelor of Science in Computer Science,
+                    specializing in Cybersecurity and Forensics
+                    (BSCS-CF).
+                </p>
+
+            </section>
+
+            <section class="card">
+
+                <span class="section-label">07 / SKILLS</span>
+
+                <h2>My Skills</h2>
+
+                <div class="skills-container">
+                    <span class="skills">HTML</span>
+                    <span class="skills">CSS</span>
+                    <span class="skills">Java</span>
+                </div>
+
+            </section>
+
+            <section class="card">
+
+                <span class="section-label">08 / LINKS</span>
+
+                <h2>My Favorite Websites</h2>
+
+                <p>
+                    <a href="https://www.reddit.com/">Reddit</a>
+                </p>
+
+                <p>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                </p>
+
+            </section>
+
+
+
+            <section class="card education-card">
+
+                <span class="section-label">09 / BACKGROUND</span>
+
+                <h2>My Education Background</h2>
+
+                <div class="table-container">
+
+                    <table>
+                        <tr>
+                            <th>Level</th>
+                            <th>School</th>
+                        </tr>
+
+                        <tr>
+                            <td>Junior High School</td>
+                            <td>Benigno "Ninoy" S. Aquino High School</td>
+                        </tr>
+
+                        <tr>
+                            <td>Senior High School</td>
+                            <td>STI Global City</td>
+                        </tr>
+
+                        <tr>
+                            <td>College</td>
+                            <td>Asia Pacific College</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="card" id="about">
+
+                <span class="section-label">10 / ABOUT</span>
+
+                <h2>About Me</h2>
+
+                <p>
+                    I enjoy learning and exploring
+                    <span class="highlight">cybersecurity and web development</span>.
+                    I also love singing, watching crime series,
+                    and playing games during my free time.
+                </p>
+
+            </section>
 
         </div>
 
-
-        <h2>Education / Achievements</h2>
-
-        <p>
-            I graduated from STI Global City, where I took the
-            Information Technology strand. I am currently a
-            college student at Asia Pacific College.
-        </p>
+    </main>
 
 
-        <h2>Course</h2>
 
-        <p>
-            Bachelor of Science in Computer Science,
-            specializing in Cybersecurity and Forensics (BSCS-CF).
-        </p>
-
-
-        <h2>IT Experience</h2>
-
-        <p>
-            I am currently learning HTML, CSS, Java, programming,
-            and other computer science concepts. I am also
-            exploring web development and cybersecurity.
-        </p>
-
-
-        <h2>Hobbies & Interests</h2>
-
-        <ul>
-            <li>Watching Crime Series</li>
-            <li>Singing</li>
-            <li>Playing Games</li>
-        </ul>
-
-
-        <h2>Goals in Life / Dream</h2>
-
-        <ol>
-            <li>Finish my college studies</li>
-            <li>Become successful in the field of Computer Science</li>
-            <li>Build a stable career and support my family</li>
-        </ol>
-
-
-        <h2>Picture Gallery</h2>
-
-        <img
-            src="https://www.heromotocorp.com/content/dam/hero-aem-website/in/en-in/premia/x440/360-bike-variant/x440-s/1.jpg"
-            alt="My Dream Bike"
-            class="gallery-image"
-        >
-
-
-        <h2>My Favorite Websites</h2>
-
-        <a href="https://www.reddit.com/">Reddit</a>
-        <br>
-        <a href="https://www.youtube.com/">YouTube</a>
-
-
-        <h2>My Skills</h2>
-
-        <p class="skills">HTML</p>
-        <p class="skills">CSS</p>
-        <p class="skills">Java</p>
-
-
-        <h2>My Education Background</h2>
-
-        <div class="table-container">
-
-            <table>
-                <tr>
-                    <th>Level</th>
-                    <th>School</th>
-                </tr>
-
-                <tr>
-                    <td>Junior High School</td>
-                    <td>Benigno "Ninoy" S. Aquino High School</td>
-                </tr>
-
-                <tr>
-                    <td>Senior High School</td>
-                    <td>STI Global City</td>
-                </tr>
-
-                <tr>
-                    <td>College</td>
-                    <td>Asia Pacific College</td>
-                </tr>
-            </table>
-
-        </div>
-
-
-        <h2>About Me</h2>
-
-        <div class="about">
-            I enjoy learning and exploring
-            <span class="highlight">cybersecurity and web development</span>.
-            I also love singing, watching crime series, and playing games
-            during my free time.
-        </div>
-
-
-        <br>
-
-        <a href="#top" class="back-to-top">Back to Top</a>
-
-    </div>
+    <footer>
+        <p>© 2026 Irene Grace A. Gabuyo</p>
+        <a href="#top">Back to Top ↑</a>
+    </footer>
 
 </body>
 </html>
-
