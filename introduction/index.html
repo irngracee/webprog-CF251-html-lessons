@@ -1,8 +1,15 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Personal Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/rwd.css">
 </head>
 
 <body>
@@ -11,7 +18,6 @@
 
         <h1 id="top">Personal Profile Web Page</h1>
 
-        <!-- Profile Introduction -->
         <div class="profile-section">
 
             <div class="profile-picture">
@@ -26,41 +32,78 @@
 
         </div>
 
+        <!-- Bootstrap Responsive Auto Layout Columns -->
+        <div class="container-fluid mt-3">
 
-        <h2>Education / Achievements</h2>
+            <h1>Responsive Auto Layout Columns</h1>
 
-        <p>
-            I graduated from STI Global City, where I took the
-            Information Technology strand. I am currently a
-            college student at Asia Pacific College.
-        </p>
+            <!-- About Me and Education -->
+            <div class="row">
 
+                <div class="col-md bg-primary text-white p-3">
+                    <b>ABOUT ME</b>
+                    <h2>Irene Grace A. Gabuyo</h2>
+                    <p>
+                        Welcome to my personal profile webpage!
+                        I enjoy learning about cybersecurity and web development.
+                    </p>
+                    <p>
+                        BS Computer Science | Cybersecurity and Forensics
+                    </p>
+                </div>
 
-        <h2>Course</h2>
+                <div class="col-md bg-dark text-white p-3">
+                    <h2>Education / Achievements</h2>
+                    <p>
+                        I graduated from STI Global City, where I took the
+                        Information Technology strand. I am currently a
+                        college student at Asia Pacific College.
+                    </p>
+                </div>
 
-        <p>
-            Bachelor of Science in Computer Science,
-            specializing in Cybersecurity and Forensics (BSCS-CF).
-        </p>
+            </div>
 
+            <br>
 
-        <h2>IT Experience</h2>
+            <!-- IT Experience, Course, and Skills -->
+            <div class="row">
 
-        <p>
-            I am currently learning HTML, CSS, Java, programming,
-            and other computer science concepts. I am also
-            exploring web development and cybersecurity.
-        </p>
+                <div class="col-md bg-primary text-white p-3">
+                    <h2>IT Experience</h2>
+                    <p>
+                        I am currently learning HTML, CSS, Java, programming,
+                        and other computer science concepts. I am also
+                        exploring web development and cybersecurity.
+                    </p>
+                </div>
 
+                <div class="col-md bg-dark text-white p-3">
+                    <h2>Course</h2>
+                    <p>
+                        Bachelor of Science in Computer Science,
+                        specializing in Cybersecurity and Forensics (BSCS-CF).
+                    </p>
+                </div>
 
-        <h2>Hobbies & Interests</h2>
+                <div class="col-md bg-primary text-white p-3">
+                    <h2>My Skills</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Java</p>
+                </div>
 
-        <ul>
-            <li>Watching Crime Series</li>
-            <li>Singing</li>
-            <li>Playing Games</li>
-        </ul>
+                <div class="col-md bg-dark text-white p-3">
+                    <h2>Hobbies & Interests</h2>
+                    <ul>
+                        <li>Watching Crime Series</li>
+                        <li>Singing</li>
+                        <li>Playing Games</li>
+                    </ul>
+                </div>
 
+            </div>
+
+        </div>
 
         <h2>Goals in Life / Dream</h2>
 
@@ -69,7 +112,6 @@
             <li>Become successful in the field of Computer Science</li>
             <li>Build a stable career and support my family</li>
         </ol>
-
 
         <h2>Picture Gallery</h2>
 
@@ -81,20 +123,11 @@
             height="200"
         >
 
-
         <h2>My Favorite Websites</h2>
 
         <a href="https://www.reddit.com/">Reddit</a>
         <br>
         <a href="https://www.youtube.com/">YouTube</a>
-
-
-        <h2>My Skills</h2>
-
-        <p class="skills">HTML</p>
-        <p class="skills">CSS</p>
-        <p class="skills">Java</p>
-
 
         <h2>My Education Background</h2>
 
@@ -124,7 +157,6 @@
 
         </div>
 
-
         <h2>About Me</h2>
 
         <div class="about">
@@ -133,7 +165,6 @@
             I also love singing, watching crime series, and playing games
             during my free time.
         </div>
-
 
         <br>
 
